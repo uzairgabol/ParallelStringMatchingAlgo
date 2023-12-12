@@ -1,0 +1,1 @@
+truncate -s 0 output.txt && max_lines=1000000 && for ((i=0; i<max_lines; i++)); do echo "This is line $i of the generated text file with multiple lines of words. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." >> output.txt; done
